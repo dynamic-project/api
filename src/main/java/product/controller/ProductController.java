@@ -37,7 +37,7 @@ public class ProductController {
 
 				FirebaseOptions options = FirebaseOptions.builder()
 						.setCredentials(GoogleCredentials.fromStream(serviceAccount))
-						.setDatabaseUrl("https://test-project-7da9e-default-rtdb.firebaseio.com").build();
+						.setDatabaseUrl("https://test-project-8djkd-default-dfadsf.firebaseio.com").build();
 
 				FirebaseApp.initializeApp(options);
 			} catch (Exception e) {
